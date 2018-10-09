@@ -2,16 +2,9 @@
     .resp-menu {
         display: block;
     }
-    .header-right-menu,.header-right{
-        display: block;
-        float: none;
-        width: 100%;
-    }
-    .menu ul li, .menu-contact{
-        float: none;
-        display: block;
-        text-align: center;
-        width: 100%;
+    .menu,
+    .menu-contact {
+        display: none;
     }
 }
 @media (max-width: 1170px) {
