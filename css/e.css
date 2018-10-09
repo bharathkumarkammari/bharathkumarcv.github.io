@@ -1,0 +1,319 @@
+/*
+=================================================================
+-----------------------RESET---------------------------
+=================================================================
+*/
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video,div{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+=================================================================
+-----------------------COMMON STYLE---------------------------
+=================================================================
+*/
+
+.wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    max-width: 1170px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+/*
+=================================================================
+-----------------------COMMON STYLE---------------------------
+=================================================================
+*/
+a{
+    text-decoration:none;
+    color: #a4b1cd;
+    display: inline-block;
+    text-transform: uppercase;
+    font: normal 14px/14px Open Sans;
+}
+li{
+    float: left;
+    display: inline-block;
+}
+
+button{
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer; 
+}
+h1{
+    text-transform: uppercase;
+    font: normal 22px/22px Open Sans;
+    color: #fff;
+     letter-spacing: 3px;
+    word-spacing: 5px;
+      text-align: center;
+}
+h2{
+    text-transform: uppercase;
+    font: bold 32px/32px Open Sans;
+    color: #fff;
+}
+p{
+    font: normal 16px/26px Open Sans;
+    color: #fff;
+}
+/*
+=================================================================
+-----------------------HEADER STYLE---------------------------
+=================================================================
+*/
+.home-bg{
+    background: #39456d;
+    padding: 20px 0px;
+}
+.header-left-logo,.menu{
+    float: left;
+}
+.header-right{
+    float: right;
+}
+.menu{
+    margin: -1px 0px;
+}
+.menu ul li{
+   margin: 10px 40px;
+}
+.menu-contact{
+    display: inline-block;
+    margin-left: 40px;
+}
+.menu-contact button{
+    padding: 10px;
+    background: #f0cf5b;
+    border-radius: 6px;
+    font: normal 14px/14px Open Sans;
+}
+.resp-menu{
+    display: inline-block;
+    font-size: 24px;
+    display: none;
+    color: #fff;
+    padding: 0px;
+    margin: 4px 10px;
+}
+/*
+=================================================================
+-----------------------BANNER STYLE---------------------------
+=================================================================
+*/
+.banner{
+    margin: 20px 0px;
+}
+.banner-left-arrow,.banner-right-arrow{
+    font: normal 40px/40px open sans;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    margin-left: 70px;
+    margin-top: 300px;
+}
+.banner-right-arrow{
+    float: right;
+    margin-right: 70px;
+    margin-left: auto;
+}
+
+.banner-slide-1 h1{
+    margin: 40px 0px 20px 0px;
+    text-align: center;
+}
+
+.banner-slide-1 .mobile{
+    display: inline-block;
+    padding: 40px;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+}
+.banner-slide-1-content{
+    width: 70%;
+    display: inline-block;
+    padding: 180px 0px 180px 100px;
+    box-sizing: border-box;
+}
+.banner-slide-1-content p{
+    margin-top: 30px;
+    width: 60%;
+}
+.app_store,.play_store{
+    float: left;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+/*
+=================================================================
+-----------------------FEATURES STYLE---------------------------
+=================================================================
+*/
+.features{
+    margin: 80px 0px;
+}
+.features h1{
+    color: #35426f;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.feature-box{
+    width: 33%;
+/*    background: red;*/
+    float: left;
+    display: inline-block;
+/*    border: 1px solid #000;*/
+    box-sizing: border-box;
+    padding: 40px;
+}
+.feature-img1 img{
+
+    padding-bottom: 50px;
+/*    background: blue;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.feature-box h2{
+    font: normal 20px/20px open sans;
+    text-align: center;
+    color: #414d77;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.feature-box p{
+    color: #414d77;
+    text-align: center;
+    margin-top:50px;
+}
+/*
+=================================================================
+-----------------------CONTACT STYLE---------------------------
+=================================================================
+*/
+.contact{
+    padding: 30px 0px;
+    background:#f4d465;
+    background-image: url(images/map.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.contact h1{
+    color: #87722b;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.contact p{
+    text-align: center;
+    color: #87722b;
+}
+.contact form{
+    width: 30%;
+    margin: 40px auto;
+    margin-bottom: 0px;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    padding: 15px 25px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: #fff;
+    box-sizing: border-box;
+}
+form input[placeholder], form textarea{
+    font: bold 16px/16px open sans;
+    color: #87722b;
+    text-transform: capitalize;
+}
+input::placeholder, textarea::placeholder{
+    color: #dcd3aa;
+}
+form textarea{
+    resize: none;
+}
+form .submit{
+    text-align: center;
+}
+form .submit button{
+    padding: 15px 50px;
+    background: #3f496d;
+    border-radius: 6px;
+    font: bold 14px/14px Open Sans;
+    letter-spacing: 1px;
+    color: #e0e0e0;
+    text-transform: capitalize;
+    box-shadow: 0px 10px 100px #888888;
+}
+/*
+=================================================================
+-----------------------FOOTER STYLE---------------------------
+=================================================================
+*/
+.footer{
+    background: #273154;
+}
+.footer-left{
+    width: 30%;
+    padding: 60px 0px;
+    float: left;
+}
+.footer-right{
+    width: 25%;
+    float: right;
+    padding: 30px 0px;
+}
+.footer-left p, .footer-right p{
+    font: bold 12px/20px open sans;
+    color: #a2afcf;
+    margin-top: 20px;
+}
+.footer-right .social{
+    margin: 20px 0px;
+    float: right;
+}
+.social li{
+    margin-right:40px; 
+}
+.social li:last-child{
+    margin-right: 0px;
+}
