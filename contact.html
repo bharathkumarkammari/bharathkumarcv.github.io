@@ -7,171 +7,167 @@
 
     <title>Contact</title>
     <style>
-    body{
-    padding: 0;
-    margin:0;
-     background: url(images/4.jpg) no-repeat 0 -100px;
-    background-size: cover;   
-}
-.clear{
-    clear: both;
-}
-.wrapper{
-    
-    width: 100%;
-    height: auto;
-/*    background: red;*/
-}
-.container{
-    width: 1170px;
-    margin: 0 auto;
-    padding: 120px; 
-}
+        body {
+            padding: 0;
+            margin: 0;
 
-.contact{
-    width: 40%;
-    margin: 0 auto;
-    padding: 50px;
-    box-shadow:0px 0px 50px #888888;
-    background: white;
-}
-.contact form,h1{
-    width: 100%;
-    margin: 0 auto;
-}
-h1{
-    text-transform: capitalize;
-    font: normal 25px/25px poppins;
-    margin-bottom: 50px;
-    color: #da3539;
-    text-align: center;
-}
-.container input{
-    padding: 5px;
-    margin-bottom: 40px;
-    width: 100%;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid #000;
-}
-.container form div{
-    position: relative;
-}
-span{
-    color: #da3539;
-}
-.container form div label{
-    position: absolute;
-    top: 3px;
-    left:0;
-    transition: .5s;
-    font: normal 16px/16px poppins;
-    text-transform: capitalize;
-    color: grey;
-    pointer-events: none;
-}
+        }
 
-.container input:focus ~ label,
-.container input:valid ~ label
-{
-    left:0;
-    top: -20px;
-    color:#1b81c3;
-    font:normal 14px/14px poppins;    
-}
+        .clear {
+            clear: both;
+        }
 
-.container input:focus{
-    border-bottom-color:#1b81c3;
-}
-input:not(:placeholder-shown) + label {
-  opacity:1;
-}
-button{
-    padding: 10px 30px;
-    border: 1px solid #da3539;
-    border-radius: 40px;
-    font: normal 14px/14px poppins;
-    cursor: pointer;
-    text-transform: capitalize;
-    background: #fff;
-/*    background: #da3539;*/
-    color: #000;
-    margin-top: 10px;
-}
-.submit{
-    width: 100px;
-    margin: 0 auto;
-}
-button:hover{
-    background: #1b81c3;
-    border: 1px solid #1b81c3;
-    color: #fff;
-}
-/*--------------reponsive---------*/
-        @media only screen and (max-width:767px){
-    body{
-        width: 100%;
-     background: url(images/4.jpg) no-repeat 0 0;
-    background-size: cover;   
-}
-   
-    .container{
-        margin: 40px auto;
-        padding: 0;
-    }
-    .contact{
-        padding: 10px;
-        margin: 150px auto;
-        width: 60%;
-    }
-    h1{
-        font-size: 18px;
-    }
-    .container form div label{
-        font: normal 12px/12px poppins;
-    }
-}
-@media (max-width: 1170px){
-    .container {
-	width: auto;
-	padding: 0 10px;
-}
-}
-    
+        .wrapper {
+
+            width: 100%;
+            height: auto;
+        }
+
+        .container {
+            width: 1170px;
+            margin: 0 auto;
+            padding: 120px;
+        }
+
+        .contact {
+            width: 40%;
+            margin: 0 auto;
+            padding: 50px;
+            box-shadow: 0px 0px 50px #888888;
+            background: white;
+        }
+
+        .contact form,
+        h1 {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-transform: capitalize;
+            font: normal 25px/25px poppins;
+            margin-bottom: 50px;
+            color: #da3539;
+            text-align: center;
+        }
+
+        .container input {
+            padding: 5px;
+            margin-bottom: 40px;
+            width: 100%;
+            box-sizing: border-box;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid #000;
+        }
+
+        .container form div {
+            position: relative;
+        }
+
+        span {
+            color: #da3539;
+        }
+
+        .container form div label {
+            position: absolute;
+            top: 3px;
+            left: 0;
+            transition: .5s;
+            font: normal 16px/16px poppins;
+            text-transform: capitalize;
+            color: grey;
+            pointer-events: none;
+        }
+
+        .container input:focus~label,
+        .container input:valid~label {
+            left: 0;
+            top: -20px;
+            color: #1b81c3;
+            font: normal 14px/14px poppins;
+        }
+
+        .container input:focus {
+            border-bottom-color: #1b81c3;
+        }
+
+        input:not(:placeholder-shown)+label {
+            opacity: 1;
+        }
+
+        button {
+            padding: 10px 30px;
+            border: 1px solid #da3539;
+            border-radius: 40px;
+            font: normal 14px/14px poppins;
+            cursor: pointer;
+            text-transform: capitalize;
+            background: #fff;
+            /*    background: #da3539;*/
+            color: #000;
+            margin-top: 10px;
+        }
+
+        .submit {
+            width: 100px;
+            margin: 0 auto;
+        }
+
+        button:hover {
+            background: #1b81c3;
+            border: 1px solid #1b81c3;
+            color: #fff;
+        }
+
+        /*--------------reponsive---------*/
+
+        @media only screen and (max-width:767px) {
+            h1 {
+                font-size: 18px;
+            }
+            .container form div label {
+                font: normal 12px/12px poppins;
+            }
+        }
+
+        @media (max-width: 1170px) {
+            .container {
+                width: auto;
+            }
+        }
     </style>
 </head>
 
 <body>
     <div class="wrapper">
         <div class="container">
-        
-           <div class="contact">
-            <h1>please fill the details</h1>
-            <form>
-                <div class="fname">
-                    <input type="text" name="" required="">
-                    <label>first name <span>*</span></label>
-                </div>
-                <div class="lname">
-                    <input type="text" name="" required="">
-                    <label>last name <span>*</span></label>
-                </div>
-                 <div class="email">
-                    <input type="text" name="" required="">
-                    <label>email <span>*</span></label>
-                </div>
-                 <div class="phone">
-                    <input type="tel" name="" required="">
-                    <label>phone number <span>*</span></label>
-                </div>
-                <div class="submit">
-                    <button>submit</button>
-                </div>
-            </form>
+            <div class="contact">
+                <h1>please fill the details</h1>
+                <form>
+                    <div class="fname">
+                        <input type="text" name="" required="">
+                        <label>first name <span>*</span></label>
+                    </div>
+                    <div class="lname">
+                        <input type="text" name="" required="">
+                        <label>last name <span>*</span></label>
+                    </div>
+                    <div class="email">
+                        <input type="text" name="" required="">
+                        <label>email <span>*</span></label>
+                    </div>
+                    <div class="phone">
+                        <input type="tel" name="" required="">
+                        <label>phone number <span>*</span></label>
+                    </div>
+                    <div class="submit">
+                        <button>submit</button>
+                    </div>
+                </form>
+            </div>
         </div>
-    </div>
-    <div class="clear"></div>
+        <div class="clear"></div>
     </div>
 </body>
 
