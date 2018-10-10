@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframe_2</title>
+    <style>
+/*
+=================================================================
+-----------------------RESET---------------------------
+=================================================================
+*/
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+=================================================================
+-----------------------COMMON STYLE---------------------------
+=================================================================
+*/
+
+.wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    max-width: 980px;
+    height: auto;
+    margin: 0 auto;
+/*    background: blue;*/
+}
+.box{
+    border: 1px solid #000;
+    text-align: center;
+    text-transform: uppercase;
+}
+h6{
+    font: normal 16px/16px poppins;
+}
+a{
+    text-decoration: none;
+    font:normal 16px/16px poppins;
+    display: inline-block;
+    color: #000;
+}
+h1{
+    font: normal 20px/20px poppins;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+i{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    float: right;
+    display: inline-block;
+    background: #6fb2e6;
+}
+p{
+    width: 228px;
+    border-bottom: 2px solid #000;
+    padding: 10px 0px;
+}
+li{
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+}
+/*
+=================================================================
+-----------------------HEADER SECTION---------------------------
+=================================================================
+*/
+.header{
+    padding: 20px 0px;
+}
+.logo{
+    display: inline-block;
+    padding: 20px 60px;
+}
+.header-right{
+    float: right;
+    padding: 10px 0px;
+}
+.header-right ul li{
+    float: left;
+    margin-left: 30px;
+}
+.header-right ul li input{
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    font: normal 12px/12px poppins;
+}
+.user,.cart{
+    padding: 10px;
+}
+
+/*
+=================================================================
+-----------------------MENU SECTION---------------------------
+=================================================================
+*/
+.menu{
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    padding: 18px 40px;
+    text-transform: uppercase;
+}
+nav li:first-child a{
+    background: #000;
+    color: #fff;
+}
+nav:hover li:first-child a{
+    background: #fff;
+    color: #000;
+}
+nav li:first-child a:hover{
+    background: #000;
+    color: #fff;
+}
+nav li:hover a{
+    background: #000;
+    color: #fff;
+}
+/*
+=================================================================
+-----------------------BANNER SECTION---------------------------
+=================================================================
+*/
+
+.banner{
+      margin:30px 0px;
+}
+.categories{
+    float: left;
+}
+.categories ul{
+    width: 300px;
+}
+.categories ul li{
+    width: 300px;
+    text-align: left;
+    border-bottom: 1px solid #000;
+    position: relative;
+}
+.categories ul li:last-child{
+    border-bottom: 0;
+}
+.categories a{
+    width: 258px;
+    padding:31px 0px 31px 40px;
+    font: normal 17px/17px poppins;
+}
+.categories ul li i{
+    position: absolute;
+    right: 20px;
+}
+.banner-image{
+    display: inline-block;
+    margin-left:20px;
+}
+.banner-image h6{
+    width: 656px;
+    margin: 192px 0; 
+}
+/*
+=================================================================
+-----------------------BEST SELLING---------------------------
+=================================================================
+*/
+.bestselling{
+    margin: 40px 0px;
+}
+
+.bestselling div i{
+    margin-left: 10px;
+}
+
+.bs-box{
+    width: 230px;
+    float: left;
+}
+.box2,.box3,.box4{
+    margin-left:20px;
+}
+.image h6{
+    margin: 141px 0px;
+}
+
+/*
+=================================================================
+-----------------------SECTION2---------------------------
+=================================================================
+*/
+
+.popular{
+    margin: 40px 0px;
+}
+
+.popular div i{
+    margin-left: 10px;
+}
+
+/*
+=================================================================
+-----------------------FOOTER SECTION---------------------------
+=================================================================
+*/
+.footer{
+    border-top: 1px solid #000;
+     padding: 20px 0px;
+}
+.social {
+    float: left;
+    width: 30%;
+}
+.social li{
+    margin: 24px 38px 0px 0px;
+    float: left;
+}
+.social li h6{
+    padding: 10px;
+}
+.quicklinks {
+    width: 40%;
+    float: left;
+}
+.container .quicklinks li{
+    text-transform: capitalize;
+    display: block;
+}
+.container .quicklinks a{
+    font: normal 12px/24px poppins;
+}
+.payment{
+    float: right;
+    width: 30%;
+}
+.pbox{
+    width: 100px;
+    padding: 25px 0px;
+    float: right;
+}
+.p2,.p4{
+    margin-left: 20px;
+}
+.p1, .p2{
+    margin-bottom: 10px;
+}
+/*
+=================================================================
+-----------------------END OF STYLE---------------------------
+=================================================================
+*/
+</style>
+</head>
+<body>
+    <div class="wrapper">
+<!---------------------HEADER SECTION----------------------->
+        <div class="container">
+            <div class="header">
+                <div class="logo box">
+                    <h6>logo</h6>
+                </div>
+                <div class="header-right">
+                    <ul>
+                        <li><input type="text" placeholder="search here"></li>
+                        <li class="user box">
+                            <h6>u</h6>
+                        </li>
+                        <li class="cart box">
+                            <h6>c</h6>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+<!---------------ENF OF HEADER SECTION---------------------->
+        <div class="menu">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">products</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="clear"></div>
+        </div>
+<!---------------END OF HEADER SECTION---------------------->
+
+<!------------------BANNER SECTION-------------------------->
+        <div class="banner">
+            <div class="container">
+                <div class="categories">
+                    <ul class="box">
+                        <li><a href="#">Women<i></i></a></li>
+                        <li><a href="#">men<i></i></a></li>
+                        <li><a href="#">Kids<i></i></a></li>
+                        <li><a href="#">Electronics<i></i></a></li>
+                        <li><a href="#">Furnitures<i></i></a></li>
+                    </ul>
+                </div>
+                <div class="banner-image box">
+                    <h6>660px X 400px</h6>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+<!---------------END OF BANNER SECTION---------------------->
+
+<!----------------BESTSELLING SECTION----------------------->
+        <div class="bestselling">
+            <div class="container">
+                <h1>best selling</h1><i></i><i></i>
+                <div>
+                    <div class="bs-box box1">
+                        <div class="image box">
+                            <h6>230px X 300px</h6>
+                        </div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="bs-box box2">
+                        <div class="image box">
+                            <h6>230px X 300px</h6>
+                        </div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="bs-box box3">
+                        <div class="image box">
+                            <h6>230px X 300px</h6>
+                        </div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="bs-box box4">
+                        <div class="image box">
+                            <h6>230px X 300px</h6>
+                        </div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+        </div>
+<!---------------END OF BESTSELLING SECTION---------------->
+
+<!---------------------POPULAR SECTION--------------------->
+        <div class="popular">
+            <div class="container">
+                <h1>popular products</h1><i></i><i></i>
+                <div>
+                    <div class="bs-box box1">
+                        <div class="image box">
+                            <h6>230px X 300px</h6>
+                        </div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="bs-box box2">
+                        <div class="image box">
+                            <h6>230px X 300px</h6>
+                        </div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="bs-box box3">
+                        <div class="image box">
+                            <h6>230px X 300px</h6>
+                        </div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="bs-box box4">
+                        <div class="image box">
+                            <h6>230px X 300px</h6>
+                        </div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+<!---------------END OF POPULAR SECTION---------------------->
+
+<!--------------------FOOTER SECTION------------------------->
+        <div class="footer">
+            <div class="container">
+                <div class="social">
+                    <div class="logo box">
+                        <h6>logo</h6>
+                    </div>
+                    <ul>
+                        <li class="facebook box">
+                            <h6>f</h6>
+                        </li>
+                        <li class="linked box">
+                            <h6>l</h6>
+                        </li>
+                        <li class="twitter box">
+                            <h6>t</h6>
+                        </li>
+                    </ul>
+                </div>
+                <div class="quicklinks">
+                    <ul>
+                        <li><a href="#">terms & conditions</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">seller support</a></li>
+                        <li><a href="#">chat</a></li>
+                        <li><a href="#">customer feedback</a></li>
+                    </ul>
+                </div>
+                <div class="payment">
+                    <div class="pbox p2 box"></div>
+                    <div class="pbox p1 box"></div>
+                    <div class="pbox p4 box"></div>
+                    <div class="pbox p3 box"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+<!---------------END OF FOOTER SECTION---------------------->
+    </div>
+<!------------------END OF WRAPPER-------------------------->
+</body
+</html>
