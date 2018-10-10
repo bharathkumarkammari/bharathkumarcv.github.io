@@ -1,0 +1,24 @@
+@media only screen and (max-width:767px){
+   
+    .container{
+        margin: 40px auto;
+        padding: 50px;
+    }
+    .contact{
+        padding: 10px;
+        margin: 10px auto;
+        width: 60%;
+    }
+    h1{
+        font-size: 18px;
+    }
+    .container form div label{
+        font: normal 12px/12px poppins;
+    }
+}
+@media (max-width: 1170px){
+    .container {
+	width: auto;
+	padding: 0 10px;
+}
+}
