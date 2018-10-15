@@ -62,14 +62,9 @@ table {
 */
 a{
     text-decoration:none;
-    color: #a4b1cd;
     display: inline-block;
     text-transform: uppercase;
-    font: normal 14px/14px Open Sans;
-}
-li{
-    float: left;
-    display: inline-block;
+   
 }
 
 button{
@@ -109,30 +104,49 @@ p{
 .header-right{
     float: right;
 }
+.header-right-menu{
+    display: inline-block;
+}
+/*
+.resp-menu{
+    display: inline-block;
+}
+*/
 .menu{
     margin: -1px 0px;
 }
 .menu ul li{
-   margin: 10px 40px;
-}
-.menu-contact{
+   margin: 4px 40px;
+     float: left;
     display: inline-block;
-    margin-left: 40px;
+}
+.menu ul li a{
+    color: #a4b1cd;
+    font: normal 14px/22px Open Sans;    
+}
+
+.menu ul li a:hover{
+    border-bottom: 1px solid #a4b1cd;
+}
+.menu ul li:last-child a:hover{
+    border-bottom: 0;
 }
 .menu-contact button{
     padding: 10px;
     background: #f0cf5b;
     border-radius: 6px;
     font: normal 14px/14px Open Sans;
-}
-.resp-menu{
     display: inline-block;
-    font-size: 24px;
-    display: none;
-    color: #fff;
-    padding: 0px;
-    margin: 4px 10px;
+    margin-top: -20px
 }
+.toggle{
+    font-size: 24px;
+    color: #fff;
+    margin: 4px 10px;
+    float: right;
+    display: none;
+}
+
 /*
 =================================================================
 -----------------------BANNER STYLE---------------------------
@@ -231,9 +245,16 @@ p{
 */
 .contact{
     padding: 30px 0px;
-    background: url(images/map.png) no-repeat right center;
+/*    background: url(images/map.png) no-repeat right center;*/
+     background-size: contain;
     background-color:#f4d465;
-    background-size: contain;
+    position: relative;
+   
+}
+.contact img{
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 .contact h1{
     color: #87722b;
@@ -312,6 +333,8 @@ form .submit button{
 }
 .social li{
     margin-right:40px; 
+     float: left;
+    display: inline-block;
 }
 .social li:last-child{
     margin-right: 0px;

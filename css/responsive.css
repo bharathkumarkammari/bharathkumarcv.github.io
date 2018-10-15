@@ -1,129 +1,160 @@
 @media only screen and (max-width:767px) {
-    .resp-menu {
+    .toggle {
         display: block;
     }
-    .menu,
-    .menu-contact {
+    .menu{
         display: none;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        text-align: center;
+    }
+
+    .menu ul li a {
+        padding: 15px 0;
+        color: #39456d;
+    }
+    .menu ul li {
+        width: 100%;
+        margin: 0;
+        float: none;
+        background: #a4b1cd;
+    }
+
+    .menu ul li a:hover {
+        border-bottom: 1px solid #39456d;
+    }
+    .header-right:hover .menu {
+        display: block;
     }
 }
-@media (max-width: 1170px) {
-.container {
-	width: auto;
-	padding: 0 10px;
+
+@media (max-width: 1169px) {
+    .container {
+        width: auto;
+        padding: 0 10px;
+    }
 }
-}
-@media (min-width:767px) and (max-width:1169px){
-    .banner-slide-1{
+
+@media (min-width:767px) and (max-width:1169px) {
+    .banner-slide-1 {
         width: 100%;
         box-sizing: border-box;
     }
-    .banner-slide-1 .mobile{
+    .banner-slide-1 .mobile {
         width: 50%;
     }
-    .banner-slide-1 .mobile img{
+    .banner-slide-1 .mobile img {
         width: 50%;
-        margin:0 auto;
+        margin: 0 auto;
         display: block;
-        
+
     }
-    .banner-slide-1-content{
+    .banner-slide-1-content {
         width: 50%;
         padding: 0;
         padding: 150px 0;
     }
-    .banner-slide-1-content h2{
+    .banner-slide-1-content h2 {
         font-size: 16px;
         display: inline-block;
     }
-    .banner-slide-1-content p{
+    .banner-slide-1-content p {
         font-size: 12px;
-        
+
     }
-    .banner-slide-1-content .store{
+    .banner-slide-1-content .store {
         width: 100%;
     }
-    .app_store,.play_store{
+    .app_store,
+    .play_store {
         width: 25%;
         padding: 10px 0px;
         box-sizing: border-box;
         display: inline-block;
         margin: 0 auto;
     }
-    .app_store img,.play_store img{
+    .app_store img,
+    .play_store img {
         width: 100%;
     }
-    .banner-left-arrow,.banner-right-arrow{
-       font-size: 16px;
+    .banner-left-arrow,
+    .banner-right-arrow {
+        font-size: 16px;
         margin-left: 0px;
         margin-right: 0px;
         display: none;
     }
 }
-@media (min-width:360px) and (max-width:767px){
-    .banner-slide-1{
+
+@media (min-width:360px) and (max-width:767px) {
+    .banner-slide-1 {
         width: 100%;
     }
-    .banner-slide-1 .mobile{
+    .banner-slide-1 .mobile {
         width: 100%;
     }
-    .banner-slide-1 .mobile img{
+    .banner-slide-1 .mobile img {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
-    .banner-slide-1-content,.banner-slide-1-content p{
+    .banner-slide-1-content,
+    .banner-slide-1-content p {
         margin: 0;
         padding: 0;
         text-align: center;
         width: 100%;
     }
-    .banner-slide-1-content p{
+    .banner-slide-1-content p {
         margin-top: 10px;
         font-size: 12px;
         padding: 5px;
     }
-    .app_store,.play_store{
+    .app_store,
+    .play_store {
         width: 50%;
         margin: 0;
         padding: 10px;
         box-sizing: border-box;
     }
-    .app_store img,.play_store img{
+    .app_store img,
+    .play_store img {
         width: 100%;
     }
     .banner-slide-1-content h2 {
         font-size: 16px;
     }
-    .banner-slide-1 h1{
+    .banner-slide-1 h1 {
         font-size: 12px;
     }
-    .banner-left-arrow,.banner-right-arrow{
-       font-size: 16px;
+    .banner-left-arrow,
+    .banner-right-arrow {
+        font-size: 16px;
         display: none;
     }
-    .features h1{
+    .features h1 {
         margin-bottom: 0px;
     }
-    .feature-box{
+    .feature-box {
         width: 100%;
     }
-    .contact p{
+    .contact p {
         padding: 10px;
     }
-    .contact form{
+    .contact form {
         width: 100%;
         padding: 25px;
         box-sizing: border-box;
     }
-    .footer-left{
+    .footer-left {
         padding: 40px 10px;
     }
-    .footer-right{
+    .footer-right {
         padding: 20px 10px;
     }
-    .social li{
+    .social li {
         margin-right: 5px;
     }
 }
-
