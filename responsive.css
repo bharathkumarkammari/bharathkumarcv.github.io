@@ -102,7 +102,12 @@
              width: 100%;
              float: none;
          }
-        
+         .course-one{
+             border-bottom: 1px solid #ECEEEF;
+         }
+         .course-list p{
+             border-top:none; 
+         }
          .copy-course-curriculum{
              width:100%;
              background-position:40% 0%;
