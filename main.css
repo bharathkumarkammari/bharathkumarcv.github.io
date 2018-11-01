@@ -62,8 +62,53 @@ a{
     text-decoration: none;
     color: #000;
 }
+h1{
+    text-transform: capitalize;
+    font-size: 34px;
+}
+h2{
+    font-size: 22px;
+}
 
+button{
+    padding: 15px;
+    border: 2px solid #F5A623;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 25px;
+    cursor: pointer;
+    font-family: 'poppins';
 
+}
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: #F5A623;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
 /*----------------FONT CALLING--------------------*/
 
 @font-face {
@@ -139,34 +184,7 @@ span{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.25);
     transition: all .2s linear
 }
-.hvr-underline-from-center {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  overflow: hidden;
-}
-.hvr-underline-from-center:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 51%;
-  right: 51%;
-  bottom: 0;
-  background: #F5A623;
-  height: 4px;
-  -webkit-transition-property: left, right;
-  transition-property: left, right;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
-  left: 0;
-  right: 0;
-}
+
 
 /*BANNER SECTION*/
 
@@ -182,17 +200,7 @@ h6{
     font-size: 80px;
     text-transform: capitalize;
 }
-button{
-    padding: 15px;
-    border: 2px solid #F5A623;
-    background: transparent;
-    text-transform: uppercase;
-    font-size: 18px;
-    margin-top: 25px;
-    cursor: pointer;
-    font-family: 'poppins';
 
-}
 .button-primary:hover{
     background-color: #F5A623;
     color: #fff;
@@ -211,10 +219,7 @@ button{
     float: right;
     width: 50%;
 }
-h1{
-    text-transform: capitalize;
-    font-size: 34px;
-}
+
 .heading-line{
     width: 30px;
     border-bottom: 2px solid #F5A623;
@@ -252,8 +257,40 @@ h1{
 .course-heading .heading-line{
     margin:20px auto;
 }
-h2{
-    font-size: 22px;
+.course-list{
+    width: 100%;
+    display: block;
+    background: red;
+}
+.num{
+/*    margin-right: 15px;*/
+    font-size: 38px;
+    line-height: 40px;
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.course-list li{
+    width: 50%;
+    float: left;
+    cursor: pointer;
+    box-sizing: border-box;
+    line-height: 40px;
+    border: 1px solid #ECEEEF;
+    padding: 20px 0px;
+}
+.course-list li h2{
+    font-size: 18px;
+    width:80%;
+    display: inline;
+}
+.ti-plus{
+    width: 10%;
+    float: right;
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 8px;
+    text-align: center
 }
 /*COPY SECTION*/
 .copy-course-curriculum{
@@ -373,7 +410,7 @@ h3{
 }
 .question-box h2{
     line-height: 90px;
-    font-weight: 500;
+    font-weight: 700;
 }
 /*--------------------FOOTER_SECTION----------------*/
 .footer{
