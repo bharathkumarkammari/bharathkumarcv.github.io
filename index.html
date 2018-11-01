@@ -7,26 +7,31 @@
     <title>Data Sciences</title>
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="themify-icons.css">
+
+    <script src="js.js"></script>
 </head>
 
 <body>
     <div class="wrapper">
-            <div class="header">
+        <div class="header">
             <div class="container">
-<!--                <div class="sticky">-->
-                    <div class="header-left">
-                        <a href="#"><img src="images/logo.png" alt=""></a>
+                <!--                <div class="sticky">-->
+                <div class="header-left">
+                    <a href="#"><img src="images/logo.png" alt=""></a>
+                </div>
+                <div class="toggle"><i class="ti-menu-alt"></i><span>menu</span></div>
+                <div class="header-right">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#" class="hvr-underline-from-center">courses</a></li>
+                            <li><a href="#" class="hvr-underline-from-center">blog</a></li>
+                            <li><a href="#" class="hvr-underline-from-center">contact</a></li>
+                            <li><a href="#">enroll</a></li>
+                        </ul>
                     </div>
-                    <div class="header-right">
-                        <div class="menu">
-                            <ul>
-                                <li><a href="#" class="hvr-underline-from-center">courses</a></li>
-                                <li><a href="#" class="hvr-underline-from-center">blog</a></li>
-                                <li><a href="#" class="hvr-underline-from-center">contact</a></li>
-                                <li><a href="#">enroll</a></li>
-                            </ul>
-                        </div>
-<!--                    </div>-->
+                    <!--                    </div>-->
                 </div>
                 <div class="clear"></div>
             </div>
@@ -127,7 +132,10 @@
                 <div class="faq-content">
                     <h1>FAQ</h1>
                     <ul class="faq-list">
-                        <li>How will the labs be conducted?</li>
+                        <div>
+                            <li id="list">How will the labs be conducted?</li>
+                        </div>
+                        <p id="list-p">Labs will be conducted on a cloud platform that is completely created by participants during the first weekof the course. The platform used is the AWS but can be replicated on Google cloud platform and Azure.</p>
                         <li>What tools do I need to attend the training sessions?</li>
                         <li>I’d like to learn more about this training program. Whom should I contact?</li>
                         <li>What is covered under the 24/7 Support promise?</li>

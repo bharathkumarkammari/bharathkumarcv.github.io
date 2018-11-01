@@ -1,0 +1,90 @@
+ @media (max-width: 1169px) {
+     .container {
+         width: auto;
+         padding: 0 10px;
+     }
+
+     @media (min-width:360px) and (max-width:767px) {
+         html {
+             padding: 0;
+             margin: 0;
+         }
+         h1{
+             font-size: 24px;
+         }
+         h2{
+             font-size: 18px;
+         }
+         h6{
+             font-size: 40px;
+         }
+         .header-left{
+             width: 50%;
+         }
+         .toggle{
+             display: block;
+             width: 50%;
+             font-size: 24px;
+         }
+         .header-right .menu{
+             display: none;
+         }
+         button{
+             width: 80%;
+         }
+         .banner-content{
+             padding: 80px 0px;
+             box-sizing: border-box;
+         }
+         .button-primary{
+             width: 100%;
+             margin-top: 50px;
+         }
+         .banner{
+             background-position: 50% 0%;
+         }
+         .feature-left,.feature-right{
+             width: 100%;
+         }
+         .feature-right{
+             margin-top: 30px;
+         }
+         .copy-course-curriculum{
+             width:100%;
+             background-position:40% 0%;
+             background-size: cover;
+         }
+         .plan-main-box,.plan-box{
+             width: 100%;
+         }
+         .box2{
+             margin:0;
+             margin-top: 30px;
+         }
+         .faq-content{
+             width: 100%;
+         }
+         .question-box{
+             width: 100%;
+             border-bottom: 1px solid #ECEEEF;
+             border-right: 0;
+         }
+         .footer-menu{
+             width: 86%;
+             margin: 0 auto; 
+         }
+         .footer p{
+             width:86%;
+             font-size: 11px;
+             margin: 0 auto; 
+         }
+/*        
+         .footer-menu li{
+             width: 25%;
+             margin-right: 0;
+             text-align: center;
+         }
+*/
+         .footer-menu li:last-child{
+             margin-right:0px;
+         }

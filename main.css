@@ -91,19 +91,33 @@ body{
     width: 100%;
     z-index: 999;
 }
-/*
-.sticky{
-     position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-}
-*/
+
 .header-left{
     float: left;
+    width:30%;
 }
 .header-right{
+    float: right;   
+     width:40%;
+}
+.toggle{
+    width: 30%;
+    float: left;
+    text-align: right;
+    line-height: 50px;
+    color: #2275D7;
+    display: none;
+    position: relative;
+}
+span{
+    font-size: 8px;
+    display: block;
+    position: absolute;
+    top: 14px;
+    right: 0;
+}
+.header .menu{
     float: right;
-      position: relative;
 }
 .header-right .menu li{
     float: left;
@@ -113,7 +127,6 @@ body{
     text-transform: uppercase;
     color: #2275D7;
     font: normal 16px/34px poppins;
-  
 }
 .menu li:last-child a {
     padding: 15px;
@@ -154,10 +167,13 @@ body{
   left: 0;
   right: 0;
 }
+
 /*BANNER SECTION*/
+
 .banner{
     background: url(images/banner.jpg) no-repeat 0 0;
     background-size: cover;
+    width: 100%;
 }
 .banner-content{
     padding: 150px 0px;
@@ -175,6 +191,7 @@ button{
     margin-top: 25px;
     cursor: pointer;
     font-family: 'poppins';
+
 }
 .button-primary:hover{
     background-color: #F5A623;
@@ -330,6 +347,11 @@ h3{
     padding-left: 25px;
     cursor: pointer;
 }
+/*
+.faq-content p{
+    display: none;
+}
+*/
 /*--------------------QUESTION_SECTION----------------*/
 .question-content{
     padding-bottom: 40px;
