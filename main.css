@@ -269,16 +269,41 @@ h6{
     float: left;
     text-align: center;
 }
-.course-list li{
-    width: 50%;
+.course-list>div{
+/*    width: 50%;*/
     float: left;
     cursor: pointer;
     box-sizing: border-box;
     line-height: 40px;
     border: 1px solid #ECEEEF;
+    
+    display: block;
+}
+#panel_1,#panel_2,#panel_3,#panel_4,#panel_5,#panel_6,#panel_7,#panel_8{
+display: none;
+}
+.course-list p{
+    width: 80%;
+    margin: 0 auto;
+    border-top: 1px solid #ECEEEF; 
+    margin-top: 20px;
+}
+.row_1{
+    display: block;
+    width: 100%;
+}
+.course-one{
+    width: 49.90%;
+    float: left;
+    padding: 20px 0px;
+    border-right: 1px solid #ECEEEF;
+}
+.course-two{
+    width: 50%;
+    float: right;
     padding: 20px 0px;
 }
-.course-list li h2{
+.course-list div h2{
     font-size: 16px;
     width:80%;
     display: inline;
@@ -290,6 +315,18 @@ h6{
     line-height: 40px;
     margin-top: 8px;
     text-align: center
+}
+.course-list li p{
+    font-size: 14px;
+    width: 60%;
+    margin: 0 auto;
+}
+.ti-file{
+    color: #F5A623;
+    margin-right: 20px;
+}
+.course-list .panel{
+    display: block;
 }
 /*COPY SECTION*/
 .copy-course-curriculum{
@@ -382,6 +419,12 @@ h3{
     margin: 40px 0;
     padding-left: 25px;
     cursor: pointer;
+}
+
+.panel {
+    display: none;
+    background-color: white;
+    overflow: hidden;
 }
 /*
 .faq-content p{
