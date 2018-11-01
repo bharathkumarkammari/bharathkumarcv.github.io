@@ -29,6 +29,7 @@
              width:60%;
              display: inline-block;
          }
+        
          .plan-main-box{
              width: 95%;
          }
@@ -97,6 +98,11 @@
              width:60%;
              display: inline-block;
          }
+         .course-one,.course-two{
+             width: 100%;
+             float: none;
+         }
+        
          .copy-course-curriculum{
              width:100%;
              background-position:40% 0%;
