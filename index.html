@@ -25,7 +25,7 @@
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
-<!--                    <span><h6>menu</h6></span>-->
+                    <!--                    <span><h6>menu</h6></span>-->
                 </div>
                 <!--                <div class="toggle"><i class="ti-menu-alt"></i><span>menu</span></div>-->
                 <div id="myDIV">
@@ -96,67 +96,92 @@
                     <div class="heading-line"></div>
                     <h2>Here is the detailed course curriculum that are made for you</h2>
                 </div>
-
-                <div class="course-list">
-                    <div class="row_1">
-                        <div class="course-one">
-                            <div id="flip_1"><strong class="num">1 </strong>
-                                <h2>Instructions for this course </h2><i class="ti-plus"></i></div>
-                            <div id="panel_1">
-                                <p><i class="ti-file"></i>How to Use the Mini-Course Template</p>
-                            </div>
-                        </div>
-                        <div class="course-two">
+<div class="course-list">
+    <div class="row_1">
+        <div class="course-one" >
+            <div id="flip_1" onclick="myFunction_c(this)"><strong class="num">1 </strong>
+                <h2>Instructions for this course </h2>
+                <div class="plus" >
+                    <div class="bar1_c"></div>
+                    <div class="bar2_c"></div>
+                </div>
+            </div>
+            <div id="panel_1">
+                <p><i class="ti-file"></i>How to Use the Mini-Course Template</p>
+            </div>
+        </div>
+                        <div class="course-two" onclick="myFunction_c(this)">
                             <div id="flip_2"><strong class="num">2 </strong>
-                                <h2>Welcome to the course </h2><i class="ti-plus"></i></div>
+                                <h2>Welcome to the course </h2><div class="plus" >
+                    <div class="bar1_c"></div>
+                    <div class="bar2_c"></div>
+                </div></div>
                             <div id="panel_2">
                                 <p><i class="ti-file"></i>How to Use the Mini-Course Template</p>
                             </div>
                         </div>
                     </div>
                     <div class="row_1">
-                        <div class="course-one">
+                        <div class="course-one" onclick="myFunction_c(this)">
                             <div id="flip_3"><strong class="num">3 </strong>
-                                <h2>Let's get started </h2><i class="ti-plus"></i></div>
+                                <h2>Let's get started </h2><div class="plus" >
+                    <div class="bar1_c"></div>
+                    <div class="bar2_c"></div>
+                </div></div>
                             <div id="panel_3">
                                 <p><i class="ti-file"></i>How to Use the Mini-Course Template</p>
                             </div>
                         </div>
-                        <div class="course-one">
+                        <div class="course-one" onclick="myFunction_c(this)">
                             <div id="flip_4"><strong class="num">4 </strong>
-                                <h2>Next Step's </h2><i class="ti-plus"></i></div>
+                                <h2>Next Step's </h2><div class="plus" >
+                    <div class="bar1_c"></div>
+                    <div class="bar2_c"></div>
+                </div></div>
                             <div id="panel_4">
                                 <p><i class="ti-file"></i>How to Use the Mini-Course Template</p>
                             </div>
                         </div>
                     </div>
                     <div class="row_1">
-                        <div class="course-one">
+                        <div class="course-one" onclick="myFunction_c(this)">
                             <div id="flip_5"><strong class="num">5 </strong>
-                                <h2>Foundation &amp; Statistics </h2><i class="ti-plus"></i></div>
+                                <h2>Foundation &amp; Statistics </h2><div class="plus" >
+                    <div class="bar1_c"></div>
+                    <div class="bar2_c"></div>
+                </div></div>
                             <div id="panel_5">
                                 <p><i class="ti-file"></i>How to Use the Mini-Course Template</p>
                             </div>
                         </div>
-                        <div class="course-two">
+                        <div class="course-two" onclick="myFunction_c(this)">
                             <div id="flip_6"><strong class="num">6 </strong>
-                                <h2>Supervised Learning </h2><i class="ti-plus"></i></div>
+                                <h2>Supervised Learning </h2><div class="plus" >
+                    <div class="bar1_c"></div>
+                    <div class="bar2_c"></div>
+                </div></div>
                             <div id="panel_6">
                                 <p><i class="ti-file"></i>How to Use the Mini-Course Template</p>
                             </div>
                         </div>
                     </div>
                     <div class="row_1">
-                        <div class="course-one">
+                        <div class="course-one" onclick="myFunction_c(this)">
                             <div id="flip_7"><strong class="num">7 </strong>
-                                <h2>Unsupervised Learning</h2><i class="ti-plus"></i></div>
+                                <h2>Unsupervised Learning</h2><div class="plus" >
+                    <div class="bar1_c"></div>
+                    <div class="bar2_c"></div>
+                </div></div>
                             <div id="panel_7">
                                 <p><i class="ti-file"></i>How to Use the Mini-Course Template</p>
                             </div>
                         </div>
-                        <div class="course-two">
+                        <div class="course-two" onclick="myFunction_c(this)">
                             <div id="flip_8"><strong class="num">8 </strong>
-                                <h2>Regression, Neural Networks &amp; Deep Learning </h2><i class="ti-plus"></i></div>
+                                <h2>Regression, Neural Networks &amp; Deep Learning </h2><div class="plus" >
+                    <div class="bar1_c"></div>
+                    <div class="bar2_c"></div>
+                </div></div>
                             <div id="panel_8">
                                 <p><i class="ti-file"></i>How to Use the Mini-Course Template</p>
                             </div>
@@ -366,6 +391,11 @@
     <script>
         function myFunction(x) {
             x.classList.toggle("change");
+        }
+    </script>
+    <script>
+        function myFunction_c(y) {
+            y.classList.toggle("change_c");
         }
     </script>
 

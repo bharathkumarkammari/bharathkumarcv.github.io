@@ -331,14 +331,33 @@ display: none;
     width:80%;
     display: inline;
 }
-.ti-plus{
+.plus{
     width: 10%;
     float: right;
     font-size: 28px;
     line-height: 40px;
-    margin-top: 8px;
     text-align: center
 }
+.bar1_c, .bar2_c {
+    width:28px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.bar1_c {
+    -webkit-transform: rotate(-90deg) translate(-9px, 6px);
+    transform: rotate(-90deg) translate(-9px, 0px);
+}
+
+.change_c .bar1_c {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-0deg) translate(2px, 9px);
+    z-index: 9999;
+}
+
+.change_c .bar2_c {opacity: 0;}
+
 .course-list li p{
     font-size: 14px;
     width: 60%;
