@@ -482,7 +482,9 @@ h3{
     margin-left: 35px;
     margin-top: -20px;
 }
-
+.accordion p{
+    width: 80%;
+}
 /*
 .faq-content p{
     display: none;
