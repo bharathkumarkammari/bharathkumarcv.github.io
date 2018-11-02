@@ -154,6 +154,7 @@ body{
     color: #2275D7;
     display: none;
     position: relative;
+    cursor: pointer;
 }
 span{
     font-size: 8px;
