@@ -89,15 +89,22 @@
          }
          .toggle {
              display: inline-block;
-             width: 6%;
+             width: 10%;
              font-size: 24px;
              float: right;
              /*             color: #fff;*/
-             margin-right: 20px;
-             margin-bottom: 20px;
+            margin: 8px auto;
+             text-align: center;
          }
          span{
-             margin-right: -3px;
+             width: 100%;
+             text-align: center;
+             display: inline-block;
+             margin-right: 4px;
+         }
+         h6{
+             font-size: 8px;
+             text-align: center;
          }
          /*
          .header {
