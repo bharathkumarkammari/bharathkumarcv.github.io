@@ -4,61 +4,62 @@
          padding: 0 10px;
      }
      @media (min-width:768px) and (max-width:1024px) {
-         
-        .header-left{
+
+         .header-left {
              width: 30%;
          }
-         .header-right{
+         .header-right {
              width: 70%;
          }
-         button{
+         button {
              width: 50%;
          }
-         .button-primary{
+         .button-primary {
              margin-top: 50px;
          }
-         .banner-content{
+         .banner-content {
              padding: 70px 0px;
              box-sizing: border-box;
          }
-         .feature-list-right li{
-             font:normal 18px/40px poppins;
+         .feature-list-right li {
+             font: normal 18px/40px poppins;
          }
-         .course-list li h2{
+         .course-list li h2 {
              font-size: 16px;
-             width:60%;
+             width: 60%;
              display: inline-block;
          }
-         .course-list li{
-             width:100%;
+         .course-list li {
+             width: 100%;
          }
-         .course-list li h2{
+         .course-list li h2 {
              font-size: 16px;
-             width:60%;
+             width: 60%;
              display: inline-block;
          }
-         .course-one,.course-two{
+         .course-one,
+         .course-two {
              width: 100%;
              float: none;
          }
-         .course-one{
+         .course-one {
              border-bottom: 1px solid #ECEEEF;
          }
-         .course-list p{
-             border-top:none; 
+         .course-list p {
+             border-top: none;
          }
-        
-         .plan-main-box{
+
+         .plan-main-box {
              width: 95%;
          }
-         .plan-box{
+         .plan-box {
              box-sizing: border-box;
              padding: 15px;
          }
-         .faq-content{
+         .faq-content {
              width: 80%;
          }
-         .question-box h2{
+         .question-box h2 {
              font-size: 16px;
              font-weight: 700;
          }
@@ -68,100 +69,143 @@
              padding: 0;
              margin: 0;
          }
-         h1{
+         h1 {
              font-size: 24px;
          }
-         h2{
+         h2 {
              font-size: 18px;
          }
-         h6{
+         h6 {
              font-size: 40px;
          }
-         .header-left{
+         .header-left {
              width: 50%;
          }
-         .toggle{
+         .toggle {
              display: block;
              width: 50%;
              font-size: 24px;
+/*             color: #fff;*/
          }
-         .header-right .menu{
+/*
+         .header {
+             transition: background-color 200ms ease, opacity 400ms ease, visibility 400ms ease, z-index 400ms ease;
+             position: fixed;
+             top: 0;
+             width: 100%;
+             height: 100%;
+             background-color: #f5a623 !important;
+             z-index: 302;
+         }
+*/
+         .header-right {
+             float: none;
+             width: 100%;
+              
+         }
+         #myDIV{
              display: none;
+            
+             transition: background-color 200ms ease, opacity 400ms ease, visibility 400ms ease, z-index 400ms ease;
+             width: 100%;
+             height: 100%;
+             background-color: #f5a623 !important;
+             z-index: -1;
          }
-         button{
+         .header-right .menu {
+             float: none;
+             z-index: 2;
+             
+         }
+         .header-right .menu ul {
+             width: 100%;
+             background: red;
+         }
+         .header-right .menu li {
+             width: 100%;
+             text-align: center;
+             margin: 14px 0px;
+         }
+         .header-right .menu li a{
+/*             color: #fff;*/
+         }
+         button {
              width: 80%;
          }
-         .banner-content{
+         .banner-content {
              padding: 80px 0px;
              box-sizing: border-box;
          }
-         .button-primary{
+         .button-primary {
              width: 100%;
              margin-top: 50px;
          }
-         .banner{
+         .banner {
              background-position: 50% 0%;
          }
-         .feature-left,.feature-right{
+         .feature-left,
+         .feature-right {
              width: 100%;
          }
-         .feature-right{
+         .feature-right {
              margin-top: 30px;
          }
-         .course-list li{
-             width:100%;
+         .course-list li {
+             width: 100%;
          }
-         .course-list li h2{
+         .course-list li h2 {
              font-size: 16px;
-             width:60%;
+             width: 60%;
              display: inline-block;
          }
-         .course-one,.course-two{
+         .course-one,
+         .course-two {
              width: 100%;
              float: none;
          }
-         .course-one{
+         .course-one {
              border-bottom: 1px solid #ECEEEF;
          }
-         .course-list p{
-             border-top:none; 
+         .course-list p {
+             border-top: none;
          }
-         .copy-course-curriculum{
-             width:100%;
-             background-position:40% 0%;
+         .copy-course-curriculum {
+             width: 100%;
+             background-position: 40% 0%;
              background-size: cover;
          }
-         .plan-main-box,.plan-box{
+         .plan-main-box,
+         .plan-box {
              width: 100%;
          }
-         .box2{
-             margin:0;
+         .box2 {
+             margin: 0;
              margin-top: 30px;
          }
-         .faq-content{
+         .faq-content {
              width: 100%;
          }
-         .question-box{
+         .question-box {
              width: 100%;
              border-bottom: 1px solid #ECEEEF;
              border-right: 0;
          }
-         .footer-menu{
+         .footer-menu {
              width: 86%;
-             margin: 0 auto; 
+             margin: 0 auto;
          }
-         .footer p{
-             width:86%;
+         .footer p {
+             width: 86%;
              font-size: 11px;
-             margin: 0 auto; 
+             margin: 0 auto;
          }
-/*        
+         /*        
          .footer-menu li{
              width: 25%;
              margin-right: 0;
              text-align: center;
          }
 */
-         .footer-menu li:last-child{
-             margin-right:0px;
+         .footer-menu li:last-child {
+             margin-right: 0px;
          }

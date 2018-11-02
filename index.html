@@ -11,28 +11,28 @@
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="themify-icons.css">
     <script src="jquery-min.js"></script>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
     <div class="wrapper">
         <div class="header">
             <div class="container">
-                <!--                <div class="sticky">-->
                 <div class="header-left">
                     <a href="#"><img src="images/logo.png" alt=""></a>
                 </div>
-                <div class="toggle"><i class="ti-menu-alt"></i><span>menu</span></div>
+                <div class="toggle" onclick="myFunction()"><i class="ti-menu-alt"></i><span>menu</span></div>
+                 <div id="myDIV">
                 <div class="header-right">
-                    <div class="menu">
-                        <ul>
-                            <li><a href="#" class="hvr-underline-from-center">courses</a></li>
-                            <li><a href="#" class="hvr-underline-from-center">blog</a></li>
-                            <li><a href="#" class="hvr-underline-from-center">contact</a></li>
-                            <li><a href="#">enroll</a></li>
-                        </ul>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#" class="hvr-underline-from-center">courses</a></li>
+                                <li><a href="#" class="hvr-underline-from-center">blog</a></li>
+                                <li><a href="#" class="hvr-underline-from-center">contact</a></li>
+                                <li><a href="#">enroll</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <!--                    </div>-->
                 </div>
                 <div class="clear"></div>
             </div>
@@ -300,7 +300,7 @@
                 }
             });
         }
-        
+
         $(document).ready(function() {
             $("#flip_1").click(function() {
                 $("#panel_1").slideToggle("slow");
@@ -341,6 +341,16 @@
                 $("#panel_8").slideToggle("slow");
             });
         });
+    </script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
     </script>
 
 </body>
