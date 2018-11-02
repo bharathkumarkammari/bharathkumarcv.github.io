@@ -529,6 +529,7 @@ h3{
     text-transform: capitalize;
     font-size: 14px;
     font-weight: 600;
+    line-height: 30px;
 }
 .footer-bdr{
     border-bottom: 1px solid #5e5e5e;
