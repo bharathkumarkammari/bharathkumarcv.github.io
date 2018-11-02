@@ -230,3 +230,26 @@
          .footer-menu li:last-child {
              margin-right: 0px;
          }
+     }
+     @media (min-width:667px) and (max-width:684px){
+         span{
+             right: 14px;
+         }s
+     }
+     @media (min-width:734px) and (max-width:736px){
+         span{
+             right: 18px;
+         }
+     }
+     @media (min-width:300px) and (max-width:320px)
+     {
+         .footer-menu {
+             width: 84%;
+             margin: 0 auto;
+         }
+         .footer li a{
+        
+             font-size: 11px;
+             margin: 0 auto;
+         }
+     }
