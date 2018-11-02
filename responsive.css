@@ -64,7 +64,8 @@
              font-weight: 700;
          }
      }
-     @media (min-width:320px) and (max-width:767px) {
+
+     @media (min-width:319px) and (max-width:767px) {
          html {
              padding: 0;
              margin: 0;
@@ -78,7 +79,7 @@
          h6 {
              font-size: 40px;
          }
-         .header .container{
+         .header .container {
              padding: 0;
          }
          .header-left {
@@ -91,11 +92,14 @@
              width: 6%;
              font-size: 24px;
              float: right;
-/*             color: #fff;*/
-             margin-right: 10px;
+             /*             color: #fff;*/
+             margin-right: 20px;
              margin-bottom: 20px;
          }
-/*
+         span{
+             margin-right: -3px;
+         }
+         /*
          .header {
              transition: background-color 200ms ease, opacity 400ms ease, visibility 400ms ease, z-index 400ms ease;
              position: fixed;
@@ -109,9 +113,9 @@
          .header-right {
              float: none;
              width: 100%;
-              
+
          }
-         #myDIV{
+         #myDIV {
              display: none;
              transition: background-color 200ms ease, opacity 400ms ease, visibility 400ms ease, z-index 400ms ease;
              width: 100%;
@@ -119,19 +123,19 @@
          .header-right .menu {
              float: none;
              z-index: 2;
-             
+
          }
          .header-right .menu ul {
              width: 100%;
-             
+
          }
          .header-right .menu li {
              width: 100%;
              text-align: center;
-             margin:0;
+             margin: 0;
              padding: 15px 0px;
          }
-/*
+         /*
          .header-right .menu li a{
              color: #fff;
          }

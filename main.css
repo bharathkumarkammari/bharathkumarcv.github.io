@@ -194,6 +194,7 @@ span{
     background-color: #2275D7;
     margin: 4px 0;
     transition: 0.4s;
+    position: relative;
 }
 
 .change .bar1 {
