@@ -93,16 +93,16 @@
              font-size: 24px;
              float: right;
              /*             color: #fff;*/
-            margin: 8px auto;
+             margin: 8px auto;
              text-align: center;
          }
-         span{
+         span {
              width: 100%;
              text-align: center;
              display: inline-block;
              margin-right: 4px;
          }
-         h6{
+         h6 {
              font-size: 8px;
              text-align: center;
          }
@@ -231,23 +231,23 @@
              margin-right: 0px;
          }
      }
-     @media (min-width:667px) and (max-width:684px){
-         span{
+     @media (min-width:667px) and (max-width:684px) {
+         span {
              right: 14px;
-         }s
+         }
+         s
      }
-     @media (min-width:734px) and (max-width:736px){
-         span{
+     @media (min-width:734px) and (max-width:736px) {
+         span {
              right: 18px;
          }
      }
-     @media (min-width:300px) and (max-width:320px)
-     {
+     @media (min-width:300px) and (max-width:320px) {
          .footer-menu {
              width: 84%;
              margin: 0 auto;
          }
-         .footer li a{
+         .footer li a {
              font-size: 11px;
              margin: 0 auto;
          }
