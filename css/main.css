@@ -346,6 +346,7 @@ button {
     font-weight: 600;
     cursor: pointer;
     font-family: 'Poppins';
+    margin-bottom: 50px;
 }
 
 .primary {
@@ -692,4 +693,8 @@ span {
     margin-left: 20px;
     color: #fff;
     font-size: 14px;
+}
+.social li a:hover{
+    color: #17bed2;
+    transition: 0.8s;
 }
