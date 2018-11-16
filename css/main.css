@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 /*
 =================================================================
 -----------------------RESET---------------------------
@@ -95,7 +96,7 @@ a{
 =================================================================
 */
 body{
-    font-family: 'poppins';
+    font-family: 'Poppins';
 }
 
 .header{
@@ -140,7 +141,7 @@ span{
 }
 .header-right .menu li a{
     color: #fff;
-    font: normal 16px/34px poppins;
+    font: normal 16px/34px Poppins;
 }
 
 .toggle{
@@ -225,7 +226,7 @@ button{
     font-size: 30px;
     font-weight: 600;
     cursor: pointer;
-    font-family: 'poppins';
+    font-family: 'Poppins';
 }
 .primary{
     color: #fff;
