@@ -122,13 +122,6 @@ body{
      width:70%;
 }
 
-span{
-    font-size: 8px;
-    display: block;
-    position: absolute;
-    top: 8px;
-    right: 0;
-}
 .header .menu{
     float: right;
 }
@@ -257,7 +250,7 @@ button{
 -----------------------ABOUT STYLE---------------------------
 =================================================================
 */
-.about,.services{
+.about,.services,.works,.experience,.contact{
     padding: 50px 0px;
 }
 h1,h3{
@@ -267,7 +260,7 @@ h1{
     font-size: 30px;
     font-weight: 600;
     color: #515769;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
     letter-spacing: 4px;
     margin-right: -7px;
 }
@@ -306,3 +299,137 @@ p{
     background: #f2f2f2;
 }
 
+.circle{
+    width: 40%;
+    box-sizing: border-box;
+    margin-left: 10%;
+    float: left;
+/*    border: 1px solid  #515769;*/
+/*    border-radius: 50%;*/
+/*    background: red;*/
+}
+.circle-1,.circle-2{
+    margin-bottom: 40px;
+}
+.service-content{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid  #515769;
+    border-radius: 50%;
+}
+.service-content h3{
+    line-height: 80px;
+}
+.service-content p{
+    margin-bottom: 20px;
+}
+/*
+=================================================================
+-----------------------WORKS STYLE---------------------------
+=================================================================
+*/
+/*
+=================================================================
+-----------------------EXPERIENCE STYLE---------------------------
+=================================================================
+*/
+.experience{
+    background: #f2f2f2;
+}
+.experience .right{
+    border-left: 1px solid grey;
+    position: relative;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.suit-circle{
+    background: #dadada;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 7.5%;
+    float: left;
+    text-align: center;
+    margin-right: 30px;
+    position: absolute;
+    left:-30px;
+    top: 0;
+}
+.suit-circle img{
+    padding: 16px;    
+}
+.experience .right h3{
+    display:inline-block;
+    margin: 20px 0px;
+}
+span{
+    float: right;
+}
+.list{
+     margin: 20px 0px 0px 20px;
+}
+.list li{
+    list-style: circle;
+}
+.list p{
+    margin-bottom: 30px;
+}
+.list li:last-child p{
+    margin-bottom: 0;
+}/*
+=================================================================
+-----------------------CONTACT STYLE---------------------------
+=================================================================
+*/
+.box{
+    width: 50%;
+    padding: 0px 50px;
+/*    background: red;*/
+    box-sizing: border-box;
+    float: left;
+}
+.box1,.box2{
+    margin-bottom: 40px;
+}
+.contact-content{
+    text-align: center;
+}
+.contact-content h3{
+    line-height: 60px;
+}
+.contact-content p{
+    margin-bottom: 20px;
+}
+/*
+=================================================================
+-----------------------FOOTER STYLE---------------------------
+=================================================================
+*/
+.footer{
+    background: #515769;
+    padding: 20px 0px;;
+}
+.footer-left{
+    float: left;
+}
+.footer-left p{
+    display: inline-block;
+    padding-right: 15px;
+    border-right: 1px solid #17bed2;
+    color: #fff;
+    margin: 0;
+    line-height: 14px;
+}
+.footer-left p:last-child{
+    padding-left: 14px;
+    border-right: 0;
+}
+.footer-right{
+    float: right;
+}
+.social li{
+    float: left;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 14px;
+}
