@@ -104,8 +104,28 @@
         .suit-circle {
             display: none;
         }
+        .box4 {
+            margin-bottom: 0;
+        }
     }
     @media (min-width:375px) and (max-width:667px) {
+        h6 {
+            font-size: 22px;
+            margin-bottom: 40px;
+            margin-top: 50px;
+        }
+
+        h5 {
+            font-size: 40px;
+        }
+        h4{
+            font-size: 20px;
+            font-weight:200;
+            margin-bottom: 50px;
+        }
+        .banner-content .bdr{
+            margin-bottom: 40px;
+        }
         .primary,
         .secondary {
             width: 100%;
@@ -126,13 +146,34 @@
         span {
             float: none;
         }
-        .left{
-            margin-bottom: 20px;
+        .left {
+            margin-bottom: 30px;
         }
-        .box{
+        .box {
             width: 100%;
             float: none;
             margin-left: 0;
             margin-bottom: 40px;
+        }
+        .box4 {
+            margin-bottom: 0;
+        }
+        .footer-left,
+        .footer-right {
+            float: none;
+            text-align: center;
+        }
+        .footer-right {
+            width: 50%;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        .social li {
+            display: inline-block;
+            text-align: center;
+            width: 25%;
+            margin-left: 0;
         }
     }
