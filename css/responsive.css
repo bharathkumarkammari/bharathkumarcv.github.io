@@ -49,14 +49,6 @@
             margin: 8px auto;
             text-align: center;
         }
-        /*
-        span {
-            width: 100%;
-            text-align: center;
-            display: inline-block;
-            margin-right: 4px;
-        }
-*/
         .header-right {
             float: none;
             width: 100%;
@@ -105,15 +97,42 @@
         .circle-2 {
             margin-bottom: 40px;
         }
-        .service-content {
-            padding: 24px;
-            border: 1px solid #515769;
-            border-radius: 50%;
-        }
-        .experience .right{
-            border:0;
+        .experience .right {
+            border: 0;
             padding: 0;
         }
-        .suit-circle{
+        .suit-circle {
             display: none;
         }
+    }
+    @media (min-width:375px) and (max-width:667px) {
+        .primary,
+        .secondary {
+            width: 100%;
+        }
+        .secondary {
+            margin-left: 0;
+            margin-top: 20px;
+        }
+        .circle {
+            width: 100%;
+            float: none;
+            margin-left: 0;
+            margin-bottom: 40px;
+        }
+        .service-content {
+            border: 0;
+        }
+        span {
+            float: none;
+        }
+        .left{
+            margin-bottom: 20px;
+        }
+        .box{
+            width: 100%;
+            float: none;
+            margin-left: 0;
+            margin-bottom: 40px;
+        }
+    }

@@ -304,9 +304,6 @@ p{
     box-sizing: border-box;
     margin-left: 10%;
     float: left;
-/*    border: 1px solid  #515769;*/
-/*    border-radius: 50%;*/
-/*    background: red;*/
 }
 .circle-1,.circle-2{
     margin-bottom: 40px;
@@ -314,8 +311,6 @@ p{
 .service-content{
     text-align: center;
     padding: 20px;
-    border: 1px solid  #515769;
-    border-radius: 50%;
 }
 .service-content h3{
     line-height: 80px;
@@ -384,9 +379,10 @@ span{
 .box{
     width: 50%;
     padding: 0px 50px;
-/*    background: red;*/
     box-sizing: border-box;
     float: left;
+    text-align: center;
+    
 }
 .box1,.box2{
     margin-bottom: 40px;
@@ -399,6 +395,7 @@ span{
 }
 .contact-content p{
     margin-bottom: 20px;
+    display: inline-block;
 }
 /*
 =================================================================
