@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Bharath</title>
+    <script src="js/jquery-min.js"></script>
 </head>
 
 <body>
@@ -21,7 +23,7 @@
                             <i class="tog"><div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div></i>
-                            <span>menu</span>
+<!--                            <span>menu</span>-->
                         </div>
                         <div id="myDIV">
                             <div class="header-right">
@@ -49,10 +51,48 @@
                         </div>
                     </div>
                 </div>
-
+            </div>
+        </div>
+        <div class="about">
+            <div class="container">
+                <div class="left">
+                    <h1>intro</h1>
+                    <h3>what i am all about</h3>
+                </div>
+                <div class="right">
+                    <p>A self-motivated IT professional with huge knowledge and proficiency in JavaScript, HTML, CSS and mobile responsive web development, as well as strong skills and ability in writing clean and efficient code, seeks the position of UI/UX Developer.</p>
+                    <h3>photoshop</h3>
+                    <h3>HTML 5</h3>
+                    <h3>CSS 3</h3>
+                    <h3>JS</h3>
+                    <h3>Jquery</h3>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="services">
+            <div class="container">
+                <div class="left">
+                    <h1>services</h1>
+                    <h3>what can i do for you?</h3>
+                </div>
+                <div class="right">
+                    <div class="circle circle-1"></div>
+                    <div class="circle circle-2"></div>
+                    <div class="circle circle-3"></div>
+                    <div class="circle circle-4"></div>
+                </div>
+                <div class="clear"></div>
             </div>
         </div>
     </div>
+    <script>
+        $(document).ready(function() {
+            $(".toggle").click(function() {
+                $("#myDIV").slideToggle("slow");
+            });
+        });
+    </script>
 </body>
 
 </html>

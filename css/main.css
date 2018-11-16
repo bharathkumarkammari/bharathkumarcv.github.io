@@ -250,3 +250,58 @@ button{
     background: transparent;
     transition: 0.5s;
 }
+
+/*
+=================================================================
+-----------------------ABOUT STYLE---------------------------
+=================================================================
+*/
+.about,.services{
+    padding: 50px 0px;
+}
+h1,h3{
+    text-transform: capitalize;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #515769;
+    margin-bottom: 16px;
+    letter-spacing: 4px;
+    margin-right: -7px;
+}
+h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #84868d;
+}
+.left{
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+.right{
+    width: 70%;
+    margin-left:10%;
+/*    background: red;*/
+    float: right;
+}
+p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #84868d;
+    margin-bottom: 45px;
+}
+.right h3{
+    font-weight: 600;
+}
+/*
+=================================================================
+-----------------------SERVICES STYLE---------------------------
+=================================================================
+*/
+
+.services{
+    background: #f2f2f2;
+}
+
