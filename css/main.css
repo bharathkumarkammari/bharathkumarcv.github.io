@@ -518,6 +518,7 @@ p {
     background: #17bed2;
     margin-bottom: 20px;
     display: inline-block;
+    cursor: pointer;
 }
 
 .w-box img {
