@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper" data-aos-once="true">
         <div class="banner">
             <div class="mask_box">
                 <div class="header">
@@ -61,7 +61,7 @@
         </div>
         <div class="about" id="about">
             <div class="container">
-                <div data-aos="fade-right" class="left">
+                <div data-aos="fade-right" class="left" >
                     <h1>intro</h1>
                     <h3>what i am all about</h3>
                 </div>
@@ -262,7 +262,10 @@
             }
         </script>
         <script>
-            AOS.init();
+            AOS.init({
+                duration: 600,
+                once:true,
+            });
         </script>
 </body>
 
