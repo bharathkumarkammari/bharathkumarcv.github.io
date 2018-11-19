@@ -21,10 +21,10 @@
     <div class="wrapper" data-aos-once="true">
         <div class="banner">
             <div class="mask_box">
-                <div class="header">
+                <div class="header" id="myHeader">
                     <div class="container">
                         <div class="header-left">
-                            <a href="#"><img src="images/Logo_2.png" alt=""></a>
+                            <a href="#"><img src="images/Logo_white.png" alt=""></a>
                         </div>
                         <div class="toggle" onclick="myFunction(this)">
                             <div class="bar1"></div>
@@ -34,7 +34,7 @@
                         <div id="myDIV">
                             <div class="header-right">
                                 <div class="menu">
-                                    <ul>
+                                    <ul class="mcolor" id="menuColor">
                                         <li><a href="#" class="hvr-underline-from-center">Home</a></li>
                                         <li><a href="#about" class="hvr-underline-from-center">About</a></li>
                                         <li><a href="#services" class="hvr-underline-from-center">Services</a></li>
@@ -43,20 +43,24 @@
                                         <li><a href="#contact" class="hvr-underline-from-center">Contact</a></li>
                                     </ul>
                                 </div>
+
                             </div>
                         </div>
                         <div class="clear"></div>
-                        <div class="bdr"></div>
-                        <div class="banner-content">
-                            <h6>hello, world.</h6>
-                            <h5>I'm Bharath Kumar.</h5>
-                            <h4>UI/UX Developer</h4>
-                            <div class="bdr"></div>
-                            <a href="#hire"><button class="primary">hire me</button></a>
-                            <a href="images/UX_UI_Resume(Bharath).pdf" target="_blank"> <button class="secondary">download cv</button></a>
-                        </div>
                     </div>
                 </div>
+                <div class="clear"></div>
+                <div class="bdr"></div>
+                <div class="banner-content">
+                    <h6>hello, world.</h6>
+                    <h5>I'm Bharath Kumar.</h5>
+                    <h4>UI/UX Developer</h4>
+                    <div class="bdr"></div>
+                    <a href="#hire"><button class="primary">hire me</button></a>
+                    <a href="images/UX_UI_Resume(Bharath).pdf" target="_blank"> <button class="secondary">download cv</button></a>
+                </div>
+
+
             </div>
         </div>
         <div class="about" id="about">
@@ -269,6 +273,36 @@
             once: true,
         });
     </script>
+     <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() == 0) {
+                $("img").attr({
+                    src: "images/logo_white.png"
+                });
+            } else {
+                $("img").attr({
+                    src: "images/logo_black.png"    
+                });
+            }
+        });
+    </script>
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+        var h = document.getElementById("myHeader");
+        var s = h.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > s) {
+                h.classList.add("sticky");
+            } else {
+                h.classList.remove("sticky")
+            }
+        }
+    </script>
+   
+
 </body>
 
 </html>
