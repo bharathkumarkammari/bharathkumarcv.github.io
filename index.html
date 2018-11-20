@@ -288,21 +288,19 @@
     </script>
     <script>
         window.onscroll = function() {
-            myFunction()
+            myFunctionS()
         };
         var h = document.getElementById("myHeader");
         var s = h.offsetTop;
 
-        function myFunction() {
+        function myFunctionS() {
             if (window.pageYOffset > s) {
                 h.classList.add("sticky");
             } else {
                 h.classList.remove("sticky")
             }
         }
-    </script>
-   
-
+    </script>   
 </body>
 
 </html>
